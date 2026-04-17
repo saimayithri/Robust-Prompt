@@ -154,3 +154,23 @@ When we tested **DPO without RAG**, the model successfully learned the correct p
 * **Meta Llama-3-8B-Instruct**
 
 ---
+## Model in Action
+
+<div align="center">
+
+<div style="display:flex; gap:10px;">
+  <img src="https://github.com/user-attachments/assets/5d4041ab-7a63-42b6-aaee-ce447f0d5d58" width="32%">
+  <img src="https://github.com/user-attachments/assets/0ba96209-bb79-4df1-b489-e94efd4587f5" width="32%">
+  <img src="https://github.com/user-attachments/assets/6b10fb95-daaf-45bc-a773-5d293639b768" width="32%">
+</div>
+
+<br>
+
+<div style="display:flex; gap:10px; justify-content:center;">
+  <img src="https://github.com/user-attachments/assets/f12914ab-f5a1-4aec-9f08-09e1148fae82" width="48%">
+  <img src="https://github.com/user-attachments/assets/8f16075a-8c80-4fbf-bfce-efdcc7672f6c" width="48%">
+</div>
+
+</div>
+
+
