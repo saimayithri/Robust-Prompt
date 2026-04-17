@@ -1,0 +1,112 @@
+[
+  {
+    "intent": "sick_leave_balance",
+    "canonical_prompt": "How many sick leave days do I have remaining this year?",
+    "paraphrases": [
+      "I'm trying to figure out how many sick days I have left for this year, can you tell me?",
+      "Can I check how much sick leave I have available for the current year?",
+      "I'm a bit confused about how the sick leave policy works - how do I find out how many days I have left this year?",
+      "I need to know how many sick leave days I have remaining, is there a way to look this up online?"
+    ],
+    "expected_answer_summary": "You can check your remaining sick leave balance by logging into the HR portal under My Leave > Leave Balance, and it resets on January 1st each year."
+  },
+  {
+    "intent": "carry_forward_leave",
+    "canonical_prompt": "Can I carry forward unused annual leave to the next year?",
+    "paraphrases": [
+      "Hi, I'm planning my vacation for next year, but I still have some leave days left over from this year. Can I roll them over to the new year?",
+      "I've got a few unused vacation days, and I was wondering if I can save them up for next year.",
+      "I don't understand the policy on carrying over vacation time. Can you clarify if I can bring any unused days forward to the next calendar year?",
+      "I'm trying to budget my time off for next year, and I wanted to know if I can carry over any unused leave from this year."
+    ],
+    "expected_answer_summary": "You may carry forward a maximum of 10 unused annual leave days to the next calendar year."
+  },
+  {
+    "intent": "maternity_leave_duration",
+    "canonical_prompt": "How many weeks of paid maternity leave am I entitled to?",
+    "paraphrases": [
+      "I'm expecting a baby and I want to know when I can start taking my maternity leave.",
+      "Can you tell me how much time off I get for maternity leave and if it's paid?",
+      "I'm trying to plan ahead and I was wondering if you could confirm the maternity leave policy for full-time employees.",
+      "How many weeks of paid maternity leave do I get if I'm expecting a baby and I'm a full-time employee?"
+    ],
+    "expected_answer_summary": "Full-time employees are entitled to 26 weeks of fully paid maternity leave, which can begin up to 4 weeks before the expected delivery date."
+  },
+  {
+    "intent": "paternity_leave_eligibility",
+    "canonical_prompt": "Am I eligible for paternity leave and how many days is it?",
+    "paraphrases": [
+      "I work full-time, but I'm not sure if I've been here long enough to qualify for paternity leave - can someone advise on the eligibility criteria?",
+      "As a new dad, I'm trying to plan things out and I was wondering if I can get 10 days off when my child is born - do I need to have a certain number of months of service?",
+      "I'm getting ready for my child's arrival and I'm unsure about our company's paternity leave policy - can someone tell me if it's paid and how many days it is?",
+      "I've been here for a few months now, but I'm still not sure if I'm eligible for paternity leave - can someone clarify the rules and how many days I'd get off?"
+    ],
+    "expected_answer_summary": "All full-time employees who have completed 6 months of service are eligible for 10 days of paid paternity leave, to be taken within 3 months of the child's birth."
+  },
+  {
+    "intent": "leave_encashment_policy",
+    "canonical_prompt": "Can I encash my unused leave days instead of taking time off?",
+    "paraphrases": [
+      "I was wondering, can I sell my unused vacation days to a colleague or take the cash instead of using them up?",
+      "Do we have a policy where I can get paid for my unused holiday time before I leave the company?",
+      "I'm a bit confused about what to do with my leftover days off, can I get cash for them or do I have to use them all up?",
+      "When I finally decide to leave the company, is it possible to use my accumulated leave to get a lump sum payment?"
+    ],
+    "expected_answer_summary": "Leave encashment is permitted at resignation or retirement, up to 30 days of annual leave at current basic salary rate."
+  },
+  {
+    "intent": "emergency_leave_company_policy",
+    "canonical_prompt": "What is the process to get emergency leave approved on short notice?",
+    "paraphrases": [
+      "Hey HR, what do I need to do in case of an emergency, like if I need to leave work suddenly?",
+      "Could you remind me of the policy for taking emergency leave at short notice?",
+      "I'm not sure what to do in a situation where I need to take an emergency leave from work - can you walk me through the process?",
+      "What are the steps I need to take to get emergency leave approved quickly, like if I have a family emergency?"
+    ],
+    "expected_answer_summary": "Notify direct manager via phone or WhatsApp immediately and submit formal leave request in HR portal within 24 hours with supporting documents as required."
+  },
+  {
+    "intent": "unpaid_leave_policy",
+    "canonical_prompt": "What is the company policy on taking unpaid leave of absence?",
+    "paraphrases": [
+      "I'm planning a personal project and I'd like to take some time off, but I'm not sure if I can get unpaid leave - can you clarify the company's policy?",
+      "Do we have a set limit on how many days we can take off without pay?",
+      "I'm getting ready for a family emergency and I'm wondering if I can take some unpaid leave if I've used up all my paid time off - can you let me know the rules?",
+      "I'm trying to plan my vacation and I'm not sure if I can take an extended unpaid leave of absence - can you tell me what the company policy is?"
+    ],
+    "expected_answer_summary": "Unpaid leave of up to 30 days may be granted at the manager's discretion after all paid leave is exhausted, with longer leave requiring HR Director approval."
+  },
+  {
+    "intent": "bereavement_leave",
+    "canonical_prompt": "How many days of bereavement leave am I allowed when a family member passes away?",
+    "paraphrases": [
+      "What is the policy regarding bereavement leave for immediate and extended family members?",
+      "When a family member passes away, how many days of paid bereavement leave am I entitled to?",
+      "Can you clarify the number of bereavement days granted for family members who have passed away?",
+      "If a close relative or extended family member passes away, what is the bereavement leave policy?"
+    ],
+    "expected_answer_summary": "Employees are entitled to a specified number of paid bereavement leave days for immediate and extended family members."
+  },
+  {
+    "intent": "medical_certificate_requirement",
+    "canonical_prompt": "When am I required to submit a medical certificate for sick leave?",
+    "paraphrases": [
+      "What's the policy on submitting medical certificates for extended sick leaves?",
+      "Do I need a doctor's note for more than two days off due to illness?",
+      "I'm not sure - when do I have to provide a medical certificate for taking time off for sick?",
+      "How soon after returning to work do I need to give my manager a doctor's note for sick leave?"
+    ],
+    "expected_answer_summary": "A medical certificate is required for any sick leave exceeding 2 consecutive days and must be submitted within 48 hours of returning to work."
+  },
+  {
+    "intent": "leave_during_notice_period",
+    "canonical_prompt": "Can I take annual leave during my notice period?",
+    "paraphrases": [
+      "I'm planning a trip during my notice period and I want to know if I can still take my annual leave?",
+      "What are the rules around taking annual leave while I'm still serving out my notice period?",
+      "I'm unsure if I can book a holiday during my notice period - can you clarify the company's policy?",
+      "I've got a week's annual leave booked for the end of my notice period but I'm worried it might be cancelled - what happens in cases like this?"
+    ],
+    "expected_answer_summary": "Annual leave during the notice period requires written approval from your manager and HR."
+  }
+]
